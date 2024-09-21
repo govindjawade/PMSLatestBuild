@@ -1,2 +1,4 @@
-package JavaPractise;public class CollectionInterface {
+package JavaPractise;
+
+public class CollectionInterface {
 }
