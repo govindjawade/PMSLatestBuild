@@ -28,9 +28,5 @@ public class CollectionInterface {
         System.out.println(a1);
         System.out.println(b1);
         System.out.println(a1.isEmpty());
-
-
-
-
     }
 }
