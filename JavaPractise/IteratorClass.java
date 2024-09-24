@@ -3,12 +3,15 @@ package JavaPractise;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
 public class IteratorClass {
 
     public static void main(String[] args) {
+
         // Use a typed ArrayList for storing Strings
-        ArrayList<String> a1 = new ArrayList<>();
-        a1.add("govind");
+                ArrayList a1 = new ArrayList();
+        a1.add("govind");//boolean function
+
         a1.add("kisan");
         a1.add("jawade");
         a1.add("priti");
