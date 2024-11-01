@@ -25,9 +25,7 @@ public class StaticNonStaticfunctions {
         add();//withing same class no need of StaticNonStaticfunctions.add
         Substraction.sub();
         Substraction s1 = new Substraction();
-
         System.out.println(s1.a - s1.b);
-
         s1.mul();//need to create object for non static method
     }
 }
