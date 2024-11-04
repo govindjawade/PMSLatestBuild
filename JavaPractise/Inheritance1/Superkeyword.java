@@ -22,7 +22,7 @@ class Example2 extends Example1 {
         System.out.println(x);
         System.out.println(y);
         System.out.println(this.x);
-        System.out.println(this.y);//this point to current object global variable
+        System.out.println(this.y);//this point to current class object global variable
         System.out.println(super.x);//sup point to parrent global
         System.out.println(super.y);
     }
