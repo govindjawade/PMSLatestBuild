@@ -1,7 +1,7 @@
 package JavaPractise;
 
 class Privateone {
-    private int x = 10;
+    private int x = 10;//scope of this variable within class out side of class not work
     void printx(){
         System.out.println(x);
     }

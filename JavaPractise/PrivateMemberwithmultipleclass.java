@@ -22,13 +22,11 @@ public class PrivateMemberwithmultipleclass {
     public static void main(String[] args) {
         A a1 = new A();
         A a2 = new A();
-       // a1.f1();
-        a1.f2();//if f1 not  initiazes the y and x then its print 0
         a1.f1();
-        a1.f2();
+        a1.f2();//if f1 not  initiazes the y and x then its print 0
         a1.f3();
         //by second object
-     //   a2.f1();
+        //   a2.f1();
         a2.f2();
         a2.f3();
     }

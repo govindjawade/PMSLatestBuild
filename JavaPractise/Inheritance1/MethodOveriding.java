@@ -1,14 +1,14 @@
 package JavaPractise.Inheritance1;
 
 class Animal {
-    void animalsound(int z) {
-        System.out.println("The animal makes a sound  " + z);
+    void animalsound() {
+        System.out.println("The animal makes a sound");
     }
 }
 
 class Cat extends Animal {
-    void animalsound(int x) {
-        System.out.println("cat says mau mau" + x);
+    void animalsound() {
+        System.out.println("cat says mau mau");
     }
 }
 
@@ -22,6 +22,9 @@ public class MethodOveriding {
     public static void main(String[] args) {
         Dog d1 = new Dog();
         d1.animalsound();
-        d1.animalsound(5);
+        Cat c1=new Cat();
+        c1.animalsound();
+        Animal a1=new Animal();
+        a1.animalsound();
     }
 }

@@ -1,13 +1,15 @@
 package JavaPractise.Inheritance1;
 
 abstract class Demo11 {
-    Demo11() {
-        System.out.println("parrent constructor");
+    Demo11(int x) {
+        System.out.println("parrent constructor"+x);
     }
 }
 
 class Demo2 extends Demo11 {
+
     Demo2() {
+        super(5);
         System.out.println("child contructor");
     }
 }

@@ -12,7 +12,7 @@ class Demo1 {
     }
 
     public Demo1() {
-
+        System.out.println("withouth arg");
     }
 }
 

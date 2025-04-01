@@ -5,7 +5,7 @@ class Overloaing { //method name same but argu diff
         System.out.println("without parameters");
     }
 
-    void f2(int x) {
+    void f1(int x) {
         System.out.println("with parameter= " + x);
     }
 }
@@ -14,6 +14,6 @@ public class MethodOverloading {
     public static void main(String[] args) {
         Overloaing o1 = new Overloaing();
         o1.f1();
-        o1.f2(6);
+        o1.f1(6);
     }
 }
