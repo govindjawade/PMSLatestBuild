@@ -1,5 +1,5 @@
 package JavaPractise.Inheritance1;
-
+//multiple inheritance java mai posible hai with interfaces
 //one parrent multiple child
 class Sams {
     void samsung() {
@@ -25,7 +25,7 @@ class Moto extends Sams{
     }
 }
 
-public class MultipleInhe {
+public class hierarchicalinheritance {
     public static void main(String[] args) {
         Moto m1 = new Moto();
         m1.Motorola();

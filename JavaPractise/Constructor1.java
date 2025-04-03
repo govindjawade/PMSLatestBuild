@@ -1,6 +1,6 @@
 package JavaPractise;
 
-//A constructor in Java is a special method (no need to call separatly)that is used to initialize objects.
+//A constructor in Java is a special method (no need to call separatly)that is used to initialize object of class.
 // The constructor is called when an object of a class is created.
 // It can be used to set initial values for object attributes
 //no return type
@@ -12,7 +12,7 @@ class Demo {
         x = 5;
         y = 10;
     }
-    void f1(){
+    void f1(){//ye constructor nahi hai
         x=63;
         y=55;
     }
