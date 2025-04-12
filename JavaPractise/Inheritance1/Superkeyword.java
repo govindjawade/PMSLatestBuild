@@ -1,5 +1,6 @@
 package JavaPractise.Inheritance1;
-
+//super--Refers to parent class members (variables/methods)	---Inside any method or constructor
+//super()--Calls the parent class constructor--Only inside a constructor	
 class Example1 {
     int x = 1000;
     int y = 2000;
