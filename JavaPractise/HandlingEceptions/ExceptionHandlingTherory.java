@@ -1,4 +1,4 @@
-package JavaPractise.inheritanceTheory.Inheritance1;
+package JavaPractise.HandlingEceptions;
 //java agar exception handle karega to prog terminate karega isiliye apan hum handle karenge with try catch
 public class ExceptionHandlingTherory {
     public static void main(String[] args) {
@@ -40,3 +40,8 @@ public class ExceptionHandlingTherory {
  *                        |-- NumberFormatException       // Invalid string to number conversion
  *                        |-- IllegalArgumentException    // Invalid arguments to method
  */
+//try	Block where exception may occur
+//catch	Block to handle exception
+//finally	Always executes (even if exception occurs or not)
+//throw	Used to explicitly throw an exception
+//throws	Declares exceptions that might be thrown
