@@ -6,7 +6,7 @@ public class Doubleendedqueue {
     public static void main(String[] args) {
         ArrayDeque<String> deque = new ArrayDeque<>();
         deque.add("First");
-        deque.add("Second");
+        deque.add("Second test");
         System.out.println(deque);
     }
 }

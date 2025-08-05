@@ -12,7 +12,7 @@ class Nokiaa {
 
 class Samsungg extends Nokiaa {
     Samsungg() {
-//       super(); //by default java execute parrent constructor thogh user not write super keyword
+//      super(); //by default java execute parrent constructor thogh user not write super keyword
         super(5, 5);//after comment this check out put
         System.out.println("child constuctor");
     }
