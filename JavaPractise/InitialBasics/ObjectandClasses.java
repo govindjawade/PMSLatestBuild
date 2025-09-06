@@ -22,7 +22,7 @@ public class ObjectandClasses {
         n1.setValue();// to access private members need create function where we can used private member and then accessible
       //  n1.printthevalues();
         n1.setValue();
-     //   n1.printthevalues();
+     // n1.printthevalues();
         //if object nahi create karna hai to functions ko static karna padega
         Nokia.printthevalues();
 
